@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Theme Switcher</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <main class="theme-app">
+
+    <h1>Theme Switcher</h1>
+    <p class="intro">Choose a theme for the preview card.</p>
+
+    <!-- Theme Controls -->
+    <div class="theme-switcher" aria-label="Choose a theme">
+
+      <input type="radio" name="theme" id="light" checked>
+      <label for="light">Light</label>
+
+      <input type="radio" name="theme" id="dark">
+      <label for="dark">Dark</label>
+
+      <input type="radio" name="theme" id="ocean">
+      <label for="ocean">Ocean</label>
+
+    </div>
+
+    <!-- Preview Card -->
+    <section class="preview-card">
+      <div class="card-content">
+        <span class="card-label">PREVIEW</span>
+
+        <h2>Build something beautiful.</h2>
+
+        <p>
+          This card uses CSS custom properties to change its appearance
+          without JavaScript.
+        </p>
+
+        <button type="button">Get Started</button>
+      </div>
+    </section>
+
+  </main>
+
+</body>
+</html>
